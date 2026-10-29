@@ -1,0 +1,21 @@
+{
+  "name": "nxtwave-ai-workshop-growth-engine",
+  "version": "1.0.0",
+  "description": "NxtWave Growth Intern Challenge Round 1 - AI Workshop Growth Engine",
+  "scripts": {
+    "server": "node server/src/server.js",
+    "client": "npm --prefix client run dev",
+    "test": "npm --prefix server test",
+    "build:client": "npm --prefix client run build"
+  },
+  "keywords": [
+    "growth-marketing",
+    "nxtwave",
+    "referral-engine",
+    "workshop",
+    "ai",
+    "engineering-students"
+  ],
+  "author": "NxtWave Growth Intern Candidate",
+  "license": "ISC"
+}

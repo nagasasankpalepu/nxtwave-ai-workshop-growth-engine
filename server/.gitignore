@@ -1,0 +1,17 @@
+# Environment secrets
+.env
+.env.local
+.env.*.local
+
+# SQLite database files containing sensitive user registrations
+data/*.sqlite*
+src/tests/*.sqlite*
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite.backup
+
+# Dependencies and logs
+node_modules/
+*.log
+
